@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_add_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/fragment_informacion"
+            android:icon="@drawable/info"
+            android:title="Informaciòn" />
+        <item
+            android:id="@+id/fragment_perfil"
+            android:icon="@drawable/baseline_co_present_24"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/fragment_recursos"
+            android:icon="@drawable/baseline_auto_awesome_mosaic_24"
+            android:title="Recursos" />
+        <item
+            android:id="@+id/fragment_notificaciones"
+            android:icon="@drawable/baseline_circle_notifications_24"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/fragment_aplicaciones"
+            android:icon="@drawable/baseline_apps_24"
+            android:title="Aplicaciones" />
+        <item
+            android:id="@+id/fragment_seguridad"
+            android:icon="@drawable/baseline_admin_panel_settings_24"
+            android:title="Seguridad" />
+        <item
+            android:id="@+id/fragment_amigos"
+            android:icon="@drawable/baseline_diversity_1_24"
+            android:title="Amigos" />
+        <item
+            android:id="@+id/fragment_ayuda"
+            android:icon="@drawable/baseline_error_outline_24"
+            android:title="Ayuda" />
+    </group>
+</menu>

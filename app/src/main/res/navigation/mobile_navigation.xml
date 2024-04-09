@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="jonathan.orellana.appmenulateral.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/fragment_informacion"
+        android:name="jonathan.orellana.appmenulateral.ui.gallery.GalleryFragment"
+        android:label="Informaciòn"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="jonathan.orellana.appmenulateral.ui.slideshow.SlideshowFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_recursos"
+        android:name="jonathan.orellana.appmenulateral.fragment_informacion"
+        android:label="Recursos"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/fragment_notificaciones"
+        android:name="jonathan.orellana.appmenulateral.fragment_notificaciones"
+        android:label="Notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/fragment_aplicaciones"
+        android:name="jonathan.orellana.appmenulateral.fragment_aplicaciones"
+        android:label="Aplicaciones"
+        tools:layout="@layout/fragment_aplicaciones" />
+    <fragment
+        android:id="@+id/fragment_seguridad"
+        android:name="jonathan.orellana.appmenulateral.fragment_seguridad"
+        android:label="Seguridad"
+        tools:layout="@layout/fragment_seguridad" />
+    <fragment
+        android:id="@+id/fragment_amigos"
+        android:name="jonathan.orellana.appmenulateral.fragment_amigos"
+        android:label="Amigos"
+        tools:layout="@layout/fragment_amigos" />
+    <fragment
+        android:id="@+id/fragment_ayuda"
+        android:name="jonathan.orellana.appmenulateral.fragment_ayuda"
+        android:label="Ayuda"
+        tools:layout="@layout/fragment_ayuda" />
+</navigation>
